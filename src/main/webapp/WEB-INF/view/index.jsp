@@ -10,5 +10,9 @@
 
 <a href="${pageContext.request.contextPath}/test/hello">REST Controller test</a>
 
+<hr>
+
+<a href="${pageContext.request.contextPath}/student/list">Student list in JSON format</a>
+
 </body>
 </html>
