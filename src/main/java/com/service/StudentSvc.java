@@ -19,7 +19,7 @@ public class StudentSvc {
         return rsl;
     }
 
-    public Student getBbyId(int id) {
+    public Student getById(int id) throws Exception {
         return getAll().stream().filter(s -> s.getId() == id).findFirst().get();
     }
 }
